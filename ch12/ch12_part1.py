@@ -2,7 +2,7 @@
 
 
 import sys
-from python_environment_check import check_packages
+# from python_environment_check import check_packages
 import torch
 import numpy as np
 from torch.utils.data import DataLoader
@@ -39,7 +39,7 @@ d = {
     'matplotlib': '3.4.3',
     'torch': '1.9.0',
 }
-check_packages(d)
+# check_packages(d)
 
 
 # # Chapter 12: Parallelizing Neural Network Training with PyTorch (Part 1/2)
@@ -67,15 +67,15 @@ check_packages(d)
 # ### Performance challenges
 
 
-
-IPythonImage(filename='figures/12_01.png', width=500)
+#
+# IPythonImage(filename='figures/12_01.png', width=500)
 
 
 # ### What is PyTorch?
 
 
 
-IPythonImage(filename='figures/12_02.png', width=500)
+# IPythonImage(filename='figures/12_02.png', width=500)
 
 
 # ### How we will learn PyTorch
